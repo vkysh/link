@@ -1,0 +1,32 @@
+@use 'variables' as *;
+@use 'mixins' as *;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+html {
+  background: url('/assets/bg-i-phone.png');
+  background-size: cover;
+
+  margin: 0;
+
+  @include on-tablet {
+    background-image: url('/assets/bg-i-tablet.png');
+  }
+
+  @include on-desktop {
+    background-image: url('/assets/bg-i-desktop.png');
+  }
+}

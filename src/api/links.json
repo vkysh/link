@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "img": "/assets/youtube-logo.png",
+    "title": "My YouTube",
+    "url": "https://youtube.com/@irysik3076?si=1MwEAFVDhBW13iPk"
+  },
+  {
+    "id": 2,
+    "img": "/assets/tiktok-logo.png",
+    "title": "My TikTok",
+    "url": "https://www.tiktok.com/@irysik3076?_r=1&_t=ZS-93cESydnTHQ"
+  },
+  {
+    "id": 3,
+    "img": "/assets/instagram-logo.png",
+    "title": "My Instagram",
+    "url": "https://www.instagram.com/irysik3076?igsh=MThnNWx6ZHg2bDIwNA%3D%3D&utm_source=qr"
+  },
+  {
+    "id": 4,
+    "img": "/assets/telegram-logo.png",
+    "title": "My Telegram",
+    "url": "https://t.me/+zzT34iEk3MQxNDc6"
+  },
+  {
+    "id": 5,
+    "img": "/assets/facebook-logo.png",
+    "title": "My Facebook",
+    "url": "https://www.facebook.com/share/1GCfzd7B32/?mibextid=wwXIfr"
+  }
+]
