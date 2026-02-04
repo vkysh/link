@@ -14,19 +14,12 @@ html {
 
 body {
   margin: 0;
+  font-family: 'Inter', sans-serif;
 }
 
 html {
-  background: url('/assets/bg-i-phone.png');
+  background: url('/assets/bg.png');
   background-size: cover;
 
   margin: 0;
-
-  @include on-tablet {
-    background-image: url('/assets/bg-i-tablet.png');
-  }
-
-  @include on-desktop {
-    background-image: url('/assets/bg-i-desktop.png');
-  }
 }

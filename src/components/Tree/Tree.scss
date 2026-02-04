@@ -1,3 +1,70 @@
 .tree {
-  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &__avatar {
+    @include size(96px);
+
+    border-radius: 50%;
+    margin-block: 69px 8px;
+
+    @include on-tablet {
+      @include size(107px);
+      margin-block: 99px 12px;
+    }
+
+    @include on-desktop {
+      @include size(123px);
+      margin-block: 138px 12px;
+    }
+  }
+
+  &__title {
+    font-size: 20px;
+    font-weight: bold;
+    color: $main-text-color;
+
+    margin: 0 0 3px;
+
+    @include on-tablet {
+      font-size: 22px;
+      margin-bottom: 4px;
+    }
+
+    @include on-desktop {
+      font-size: 24px;
+      margin-bottom: 7px;
+    }
+  }
+
+  &__subtitle {
+    font-size: 16px;
+    color: $main-text-color;
+
+    margin: 0 0 34px;
+
+    @include on-tablet {
+      font-size: 18px;
+      margin-bottom: 64px;
+    }
+
+    @include on-desktop {
+      font-size: 20px;
+    }
+  }
+
+  &__links {
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+
+    @include on-tablet {
+      gap: 21px;
+    }
+
+    @include on-desktop {
+      gap: 29px;
+    }
+  }
 }

@@ -1,3 +1,62 @@
 .link {
-  
+  @include size(246px, 42px);
+  background-color: #fff;
+
+  border-radius: 5px;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.25);
+
+  transition: transform $effectDuration ease;
+
+   @include on-tablet {
+    @include size(288px, 50px);
+  }
+
+  &:hover {
+    transform: scale(1.05);
+  }
+
+  &__item {
+    text-decoration: none;
+    @include size(100%);
+    display: flex;
+    align-items: center;
+    gap: 12px;
+
+    @include on-tablet {
+      gap: 16px;
+    }
+
+    @include on-desktop {
+      gap: 20px;
+    }
+  }
+
+  &__title {
+    font-size: 16px;
+    color: $main-text-color;
+    
+
+    @include on-tablet {
+      font-size: 18px;
+    }
+
+    @include on-desktop {
+      font-size: 20px;
+    }
+  }
+
+  &__img {
+    @include size(29px);
+    margin-inline: 11px 27px;
+
+    @include on-tablet {
+      @include size(35px);
+      margin-inline: 12px 27px;
+    }
+    
+    @include on-desktop {
+      @include size(43px);
+      margin-inline: 22px 31px;
+    }
+  }
 }

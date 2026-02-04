@@ -3,7 +3,7 @@ import './Link.scss';
 export const Link = ({ link }) => {
   return (
     <div className="link">
-      <a href={link.url} className='link_item'>
+      <a href={link.url} className='link__item'>
         <img
           src={link.img}
           alt={link.title + '.png'}
