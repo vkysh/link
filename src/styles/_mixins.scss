@@ -27,6 +27,11 @@
   height: $height;
 }
 
+@mixin maxSize($width, $height: $width) {
+  max-width: $width;
+  max-height: $height;
+}
+
 @mixin on-tablet {
   @media (min-width: $tablet-min-width) {
     @content;

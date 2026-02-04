@@ -11,12 +11,12 @@
 
     @include on-tablet {
       @include size(107px);
-      margin-block: 99px 12px;
+      margin-block: 40px 12px;
     }
 
     @include on-desktop {
       @include size(123px);
-      margin-block: 138px 12px;
+      margin-block: 50px 12px;
     }
   }
 
@@ -59,12 +59,16 @@
     flex-direction: column;
     gap: 17px;
 
+    margin-bottom: 70px;
+
     @include on-tablet {
       gap: 21px;
+      margin-bottom: 100px;
     }
 
     @include on-desktop {
       gap: 29px;
+      margin-bottom: 140px;
     }
   }
 }

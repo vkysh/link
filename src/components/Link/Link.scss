@@ -1,5 +1,6 @@
 .link {
-  @include size(246px, 42px);
+  @include size(min(246px, 85vw), 42px);
+  @include maxSize(100%);
   background-color: #fff;
 
   border-radius: 5px;
@@ -7,8 +8,12 @@
 
   transition: transform $effectDuration ease;
 
-   @include on-tablet {
-    @include size(288px, 50px);
+  @include on-tablet {
+    @include size(min(557px, 85vw), 47px);
+  }
+
+  @include on-desktop {
+    @include size(min(1188px, 85vw), 60px);
   }
 
   &:hover {
